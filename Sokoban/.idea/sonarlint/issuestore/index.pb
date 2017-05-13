@@ -1,0 +1,21 @@
+
+S
+#src\main\logic\utils\Direction.java,e\8\e8afb721f264b10197ab51a10db43ae1e375976a
+U
+%src\main\logic\figure\LevelField.java,1\9\1920ed4d889ca456c63bea4016077f7515e5fa6e
+V
+&src\main\logic\figure\Destination.java,b\7\b7ffaca0e9d07a6578483be8fc3907c82c401729
+S
+#src\main\logic\figure\MoneyBag.java,4\3\43bc8274e797e42bc07b78b3e8e3ff8462157bd4
+B
+src\main\Main.java,e\8\e8a07dd830d5e10c2fca4be1c0f372382779e507
+U
+%src\main\logic\figure\BaseFigure.java,6\a\6a097f04055b31c6571d43fba138dbe8c4469eb0
+\
+,src\main\logic\figure\BaseMovableFigure.java,3\7\37333e921ba4089a8c89abf0b2f43bf8ba4a58f0
+Q
+!src\main\logic\figure\Player.java,1\5\15e8003461817ed04bdf2e95ef8d22a4a55ec5be
+O
+src\main\logic\figure\Wall.java,2\4\24fcf64dbc37b97d637089f62babcfeb87235e31
+J
+src\main\ui\GameBoard.java,e\d\ed1d5b67e0481a54c5c29640c192af481362830b

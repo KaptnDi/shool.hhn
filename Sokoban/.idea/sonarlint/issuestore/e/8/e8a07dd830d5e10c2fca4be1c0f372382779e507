@@ -1,0 +1,11 @@
+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(êëî¥ýÿÿÿÿ8òòž–À+
+Dsquid:S1604"(Make this anonymous inner class a lambda(õó“Õ8°Ç¡˜À+
+Dsquid:S1148"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ8Å‰õ–À+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(¡­Ìˆ8òòž–À+
+Isquid:S1604"(Make this anonymous inner class a lambda(Ø¬ëêÿÿÿÿÿ8‰Èÿ–À+
+Vsquid:S1141"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8Å‰õ–À+
+V
+squid:S106";Replace this usage of System.out or System.err by a logger.(¡­Ìˆ8Å‰õ–À+
+Asquid:S1166"%Either log or rethrow this exception.(†ðË¹8Å‰õ–À+

@@ -1,1 +1,0 @@
-https://confluence-student.it.hs-heilbronn.de/display/PP17SS/Flashcards
