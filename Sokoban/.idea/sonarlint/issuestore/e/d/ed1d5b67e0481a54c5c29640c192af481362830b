@@ -1,0 +1,13 @@
+
+Gsquid:S3398"+Move this method into "SokobanKeyListener".(åíİé8Ê½³•À+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(¿Şªú8Ïõ”•À+
+[
+squid:S106";Replace this usage of System.out or System.err by a logger.(ğ±ßüÿÿÿÿ8‡ôü‘À+
+Qsquid:S2696"6Make the enclosing method "static" or remove this set.(Ç¾ÑP8æª–•À+
+Lsquid:S3398"+Move this method into "SokobanKeyListener".(µûöîüÿÿÿÿ8ĞÀá’À+
+g
+squid:S128"LEnd this switch case with an unconditional break, return or throw statement.(áâ«ø8ÀÅÍ˜À+
+Psquid:S1066"/Merge this if statement with the enclosing one.(ÕÊ‚Œøÿÿÿÿ8–å•À+
+ssquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(µûöîüÿÿÿÿ8ØÏİ“À+
+t
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Ğ›ı©8ı§ë‘À+
