@@ -2,98 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a9f72b-dc3c-45ca-99b1-ac67fa32f18d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/1/5/15e8003461817ed04bdf2e95ef8d22a4a55ec5be" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/1/9/1920ed4d889ca456c63bea4016077f7515e5fa6e" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/2/4/24fcf64dbc37b97d637089f62babcfeb87235e31" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/3/7/37333e921ba4089a8c89abf0b2f43bf8ba4a58f0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/4/3/43bc8274e797e42bc07b78b3e8e3ff8462157bd4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/6/a/6a097f04055b31c6571d43fba138dbe8c4469eb0" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/b/7/b7ffaca0e9d07a6578483be8fc3907c82c401729" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/e/8/e8a07dd830d5e10c2fca4be1c0f372382779e507" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/e/8/e8afb721f264b10197ab51a10db43ae1e375976a" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/e/d/ed1d5b67e0481a54c5c29640c192af481362830b" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/asdf.ser" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/Main$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/Main$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/Main.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/BaseFigure.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/BaseMovableFigure$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/BaseMovableFigure.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/Destination.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/LevelField.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/MoneyBag.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/Player.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/Wall.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/utils/Direction.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/ui/GameBoard$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/ui/GameBoard$SokobanKeyListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/ui/GameBoard.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/sokoban" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/sonarlint/issuestore/index.pb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseFigure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseMovableFigure.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/Destination.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/MoneyBag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/Player.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/Wall.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/utils/Direction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/.idea/checkstyle-idea.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/.idea/kotlinc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/Flashcard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/FlashcardsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/FlashcardsSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/FlashcardsSetInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/FlashcardsStatistics$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/FlashcardsStatistics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/Statistics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UseCase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UserInterface$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UserInterface$1StatEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UserInterface$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UserInterface$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UserInterface$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UserInterface$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UserInterface$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/flash/flashcards/UserInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/Flashcard.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/FlashcardTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/FlashcardsService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/FlashcardsSet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/FlashcardsSetInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/FlashcardsStatistics$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/FlashcardsStatistics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/Statistics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UseCase.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UserInterface$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UserInterface$1StatEvent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UserInterface$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UserInterface$3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UserInterface$4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UserInterface$5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UserInterface$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/out/production/shool.hhn/flashcards/UserInterface.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/Flashcard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/FlashcardsService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/FlashcardsSet.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/FlashcardsSetInterface.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/FlashcardsStatistics.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/Statistics.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/UseCase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/flash/src/flashcards/UserInterface.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="$PROJECT_DIR$/Sokoban/.idea/kotlinc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/Sokoban/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flash/.idea/modules.xml" afterPath="$PROJECT_DIR$/Sokoban/.idea/modules.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flash/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Sokoban/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/flash/flash.iml" afterPath="$PROJECT_DIR$/Sokoban/Sokoban.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/shool.hhn.iml" afterPath="$PROJECT_DIR$/.idea/shool.hhn.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,11 +13,11 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sokoban/src/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="548">
               <caret line="121" column="39" lean-forward="false" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
               <folding />
             </state>
@@ -126,10 +34,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5248">
+            <state relative-caret-position="-5351">
               <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding />
             </state>
@@ -139,23 +47,9 @@
       <file leaf-file-name="BaseFigure.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseFigure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#443#444#0" expanded="false" />
-                <element signature="e#470#471#0" expanded="false" />
-                <element signature="e#507#508#0" expanded="false" />
-                <element signature="e#539#540#0" expanded="false" />
-                <element signature="e#567#568#0" expanded="false" />
-                <element signature="e#594#595#0" expanded="false" />
-                <element signature="e#631#632#0" expanded="false" />
-                <element signature="e#663#664#0" expanded="false" />
-                <element signature="e#695#696#0" expanded="false" />
-                <element signature="e#723#724#0" expanded="false" />
-                <element signature="e#765#766#0" expanded="false" />
-                <element signature="e#799#800#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-101">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,13 +57,9 @@
       <file leaf-file-name="BaseMovableFigure.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseMovableFigure.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#254#255#0" expanded="false" />
-                <element signature="e#294#295#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="21">
+              <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,12 +67,9 @@
       <file leaf-file-name="Destination.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Destination.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#190#191#0" expanded="false" />
-                <element signature="e#258#259#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -190,8 +77,8 @@
       <file leaf-file-name="LevelField.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="21">
+              <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -241,6 +128,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -340,6 +230,10 @@
               <option name="myItemId" value="logic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -373,9 +267,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,6 +547,7 @@
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -784,6 +676,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -820,47 +718,56 @@
       <updated>1494701205094</updated>
       <workItem from="1494701206676" duration="12000" />
       <workItem from="1495092952146" duration="539000" />
+      <workItem from="1495441338765" duration="563000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="551000" />
+    <option name="totallyTimeSpent" value="1114000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22126746" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2244898" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -878,62 +785,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseFigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#443#444#0" expanded="false" />
-            <element signature="e#470#471#0" expanded="false" />
-            <element signature="e#507#508#0" expanded="false" />
-            <element signature="e#539#540#0" expanded="false" />
-            <element signature="e#567#568#0" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#663#664#0" expanded="false" />
-            <element signature="e#695#696#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#765#766#0" expanded="false" />
-            <element signature="e#799#800#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseMovableFigure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#254#255#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Destination.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#190#191#0" expanded="false" />
-            <element signature="e#258#259#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="2310">
           <caret line="121" column="39" lean-forward="false" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
           <folding />
         </state>
@@ -947,10 +801,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseFigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseMovableFigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5248">
+        <state relative-caret-position="147">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseFigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseMovableFigure.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="9" column="22" lean-forward="false" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Destination.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5351">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/utils/Direction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="121" column="39" lean-forward="false" selection-start-line="121" selection-start-column="39" selection-end-line="121" selection-end-column="39" />
           <folding />
         </state>
       </provider>
