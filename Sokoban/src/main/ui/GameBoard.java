@@ -248,8 +248,6 @@ public class GameBoard extends JPanel implements Serializable {
 
     private boolean checkIfBagOnDestination(){
         boolean check = false;
-        int bagsSize2 = bags.size();
-        int bagsOnDestination2 = 0;
         for (MoneyBag bag : bags){
             for( Destination destination : destinations){
                 if(bag.getPosX() == destination.getPosX() && bag.getPosY() == destination.getPosY()){
@@ -339,7 +337,18 @@ public class GameBoard extends JPanel implements Serializable {
             }
 
             if (!checkIfBagOnDestination()){
-                //TODO ICON change, wenn der Sack nicht mehr auf dem Ziel ist
+                for (MoneyBag bag : bags){
+                    for( Destination destination : destinations){
+                        if(bag.getPosX() == destination.getPosX() && bag.getPosY() == destination.getPosY()){
+                            Star star = new Star(bag.getPosX(), bag.getPosY());
+                            bag.setImage(star.getImage());
+                            break;
+                        }else {
+                            MoneyBag mb = new MoneyBag(getX(), getY());
+                            bag.setImage(mb.getImage());
+                        }
+                    }
+                }
             }
             repaint();
         }

@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a9f72b-dc3c-45ca-99b1-ac67fa32f18d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/Main$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/Main$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/BaseFigure.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/BaseMovableFigure$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/BaseMovableFigure.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/Destination.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/LevelField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/MoneyBag.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/Player.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/figure/Wall.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/logic/utils/Direction.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/ui/GameBoard$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/ui/GameBoard$SokobanKeyListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sokoban/out/production/Sokoban/main/ui/GameBoard.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/logic/figure/BaseFigure.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/logic/figure/BaseFigure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/logic/utils/Direction.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/logic/utils/Direction.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/ui/GameBoard$SokobanKeyListener.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/ui/GameBoard$SokobanKeyListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/src/main/Main.java" afterPath="$PROJECT_DIR$/Sokoban/src/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseFigure.java" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/BaseFigure.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/src/main/logic/utils/Direction.java" afterPath="$PROJECT_DIR$/Sokoban/src/main/logic/utils/Direction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java" afterPath="$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,11 +26,80 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Wall.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Wall.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Star.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Star.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="341" column="68" lean-forward="false" selection-start-line="341" selection-start-column="68" selection-end-line="341" selection-end-column="68" />
+            <state relative-caret-position="346">
+              <caret line="345" column="30" lean-forward="false" selection-start-line="345" selection-start-column="30" selection-end-line="345" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Plus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Plus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding>
+                <element signature="e#146#147#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="56" lean-forward="false" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoneyBag.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/MoneyBag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="9" column="112" lean-forward="false" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -710,7 +757,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15309000" />
+    <option name="totallyTimeSpent" value="16929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,7 +790,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29889977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -961,21 +1008,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Star.java">
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/utils/Direction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="112" lean-forward="false" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -991,22 +1027,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Wall.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/MoneyBag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1018,10 +1038,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/utils/Direction.java">
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/MoneyBag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1034,10 +1054,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Star.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="9" column="112" lean-forward="false" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="341" column="68" lean-forward="false" selection-start-line="341" selection-start-column="68" selection-end-line="341" selection-end-column="68" />
+        <state relative-caret-position="346">
+          <caret line="345" column="30" lean-forward="false" selection-start-line="345" selection-start-column="30" selection-end-line="345" selection-end-column="30" />
           <folding />
         </state>
       </provider>
