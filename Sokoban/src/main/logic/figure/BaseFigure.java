@@ -1,13 +1,11 @@
 package main.logic.figure;
 
-import javax.swing.*;
-import java.awt.*;
 import java.io.Serializable;
 
 /**
  * Created by Dima on 13.05.2017.
  */
-public abstract class BaseFigure implements  Serializable {
+public abstract class BaseFigure implements Serializable {
 
     private int posX;
     private int posY;

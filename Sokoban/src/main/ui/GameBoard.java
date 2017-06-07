@@ -61,6 +61,11 @@ public class GameBoard extends JPanel implements Serializable {
      * Setzt alle Variablen auf den Startzustand.
      */
     private void initVariables() {
+        try{
+            JFrame parent = (JFrame) SwingUtilities.getWindowAncestor(this);
+            parent.setTitle("Sokoban");
+        }catch (NullPointerException ex){
+        }
         walls = new ArrayList<>();
         bags = new ArrayList<>();
         destinations = new ArrayList<>();
@@ -241,6 +246,40 @@ public class GameBoard extends JPanel implements Serializable {
         return bagsOnDestination == bagsSize;
     }
 
+    private boolean checkIfBagOnDestination(){
+        boolean check = false;
+        int bagsSize2 = bags.size();
+        int bagsOnDestination2 = 0;
+        for (MoneyBag bag : bags){
+            for( Destination destination : destinations){
+                if(bag.getPosX() == destination.getPosX() && bag.getPosY() == destination.getPosY()){
+                    Star star = new Star(bag.getPosX(), bag.getPosY());
+                    bag.setImage(star.getImage());
+                    check = true;
+                    break;
+                    }
+                    else check = false;
+            }
+        }
+        return check;
+    }
+
+
+    private boolean checkIfPlayerOnDestination(){
+        boolean check = false;
+        int x = player.getPosX();
+        int y = player.getPosY();
+        for(Destination destination : destinations){
+            if(x == destination.getPosX() && y == destination.getPosY()){
+                Plus p = new Plus(player.getPosX(), player.getPosY());
+                player.setImage(p.getImage());
+                check = true;
+                break;
+            }else check = false;
+        }
+        return check;
+    }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
@@ -260,6 +299,7 @@ public class GameBoard extends JPanel implements Serializable {
             switch (keyCode) {
                 case KeyEvent.VK_Z:
                     live = undo;
+                    break;
                 case KeyEvent.VK_R:
                     restartCurrentLevel();
                     break;
@@ -293,6 +333,14 @@ public class GameBoard extends JPanel implements Serializable {
                 }
             }
 
+            if (!checkIfPlayerOnDestination()){
+                Player pp = new Player(player.getPosX(), player.getPosY());
+                player.setImage(pp.getImage());
+            }
+
+            if (!checkIfBagOnDestination()){
+                //TODO ICON change, wenn der Sack nicht mehr auf dem Ziel ist
+            }
             repaint();
         }
     }

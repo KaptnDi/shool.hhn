@@ -7,7 +7,7 @@ import java.util.logging.Level;
  */
 public enum LevelField {
 
-    DESTINATION("."), MONEY_BAG("$"), PLAYER("@"), WALL("#"), EMPTY(" "), LINE_BREAK("\n");
+    DESTINATION("."), MONEY_BAG("$"), PLAYER("@"), WALL("#"), EMPTY(" "), LINE_BREAK("\n"), STAR("*"), PLUS("+");
 
     private String image;
 

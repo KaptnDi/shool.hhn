@@ -39,7 +39,7 @@ public class Main extends JFrame implements Serializable {
         super.setTitle("Sokoban");
         super.setVisible(true);
         super.setLocationRelativeTo(null);
-        super.setSize(500, 500);
+        super.setSize(300, 350);
     }
 
     private JMenuBar createMenuBar() {
@@ -112,17 +112,14 @@ public class Main extends JFrame implements Serializable {
 
     public static void main(String[] args) {
         // TODO logik ausarbeiten dass level aus textdatei geladen wird.
-        //if (args != null && args.length > 0) {
-        //    new Main(args[0]);
-        //}
-        String level =  "    ####\n" +
-                            "#####  #\n" +
-                            "#   $  #\n" +
-                        "#  .#  #\n" +
-                        "## ## ##\n" + "#      #\n" +
-                            "# @#   #\n" +
-                            "#  #####\n" +
-                            "####";
+        String level =  "  #####\n" +
+                        "###   #\n" +
+                        "# $ # ##\n" +
+                        "# #  . #\n" +
+                        "#    # #\n" +
+                        "##$#.  #\n" +
+                         " #@  ###\n" +
+                         " #####";
         singelton = new Main(level);
     }
 }
