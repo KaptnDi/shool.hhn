@@ -8,6 +8,7 @@ import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 import java.io.Serializable;
+import java.lang.reflect.Array;
 import java.util.*;
 import java.util.List;
 
@@ -26,6 +27,7 @@ public class GameBoard extends JPanel implements Serializable {
     private ArrayList<Wall> walls;
     private ArrayList<MoneyBag> bags;
     private ArrayList<Destination> destinations;
+    private ArrayList<Star> stars;
     private Player player;
 
     // Größe des Spielfeldes in Pixel
@@ -35,16 +37,14 @@ public class GameBoard extends JPanel implements Serializable {
     private boolean levelCompleted;
     private static int moveCounter;
     private final String level;
-
-    private GameBoard live;
-    private GameBoard undo;
+    private Stack save;
 
     public GameBoard(String level) {
-        live = this;
         initVariables();
         parseLevel(level);
         this.level = level;
         registerKeyListener();
+        Stack save = new Stack();
     }
 
     public void registerKeyListener() {
@@ -66,9 +66,11 @@ public class GameBoard extends JPanel implements Serializable {
             parent.setTitle("Sokoban");
         }catch (NullPointerException ex){
         }
+
         walls = new ArrayList<>();
         bags = new ArrayList<>();
         destinations = new ArrayList<>();
+        stars = new ArrayList<>();
         player = null;
         boardWidth = 0;
         boardHeight = 0;
@@ -119,6 +121,12 @@ public class GameBoard extends JPanel implements Serializable {
                     currentX = OFFSET;
                     currentY += FIELD_SIZE;
                     continue;
+                case STAR: //Ein Stern ist Ein Bag auf dem Ziel!
+                    destinations.add(new Destination(currentX, currentY));
+                    bags.add(new MoneyBag(currentX, currentY));
+                    currentX += FIELD_SIZE;
+                    checkIfBagOnDestination();
+                    continue;
                 default:
                     System.err.printf("Invalid char '%s' found", level.charAt(i));
                     break;
@@ -133,6 +141,7 @@ public class GameBoard extends JPanel implements Serializable {
         all.addAll(walls);
         all.addAll(bags);
         all.addAll(destinations);
+        all.addAll(stars);
         all.add(player);
 
         for (BaseFigure figure : all) {
@@ -262,7 +271,6 @@ public class GameBoard extends JPanel implements Serializable {
         return check;
     }
 
-
     private boolean checkIfPlayerOnDestination(){
         boolean check = false;
         int x = player.getPosX();
@@ -296,7 +304,6 @@ public class GameBoard extends JPanel implements Serializable {
             Direction direction = null;
             switch (keyCode) {
                 case KeyEvent.VK_Z:
-                    live = undo;
                     break;
                 case KeyEvent.VK_R:
                     restartCurrentLevel();
@@ -326,16 +333,17 @@ public class GameBoard extends JPanel implements Serializable {
                 // Wenn eine Richtungstaste gedrückt wurde und keine Wall im Weg steht wird bewegt.
                 if (direction != null && !checkCollision(player, direction)) {
                     moveCounter++;
-                    undo = live;
                     player.move(direction, FIELD_SIZE);
                 }
             }
 
             if (!checkIfPlayerOnDestination()){
+                //Wenn die Spielfigur nicht auf dem Ziel steht, soll das Symbol ein @ bleiben
                 Player pp = new Player(player.getPosX(), player.getPosY());
                 player.setImage(pp.getImage());
             }
 
+                //Wenn der Geldsack nicht auf dem Ziel steht, soll das Symbol ein $ bleiben
             if (!checkIfBagOnDestination()){
                 for (MoneyBag bag : bags){
                     for( Destination destination : destinations){
