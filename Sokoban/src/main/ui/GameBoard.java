@@ -1,12 +1,12 @@
 package main.ui;
 
+import main.Main;
 import main.logic.figure.*;
 import main.logic.utils.Direction;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.KeyAdapter;
-import java.awt.event.KeyEvent;
+import java.awt.event.*;
 import java.io.Serializable;
 import java.lang.reflect.Array;
 import java.util.*;
@@ -37,14 +37,15 @@ public class GameBoard extends JPanel implements Serializable {
     private boolean levelCompleted;
     private static int moveCounter;
     private final String level;
-    private Stack save;
+
+    private List<Player> undoPlayerList = new ArrayList<>();
+    private List<ArrayList<MoneyBag>> undoBagsList = new ArrayList<>();
 
     public GameBoard(String level) {
         initVariables();
         parseLevel(level);
         this.level = level;
         registerKeyListener();
-        Stack save = new Stack();
     }
 
     public void registerKeyListener() {
@@ -61,10 +62,10 @@ public class GameBoard extends JPanel implements Serializable {
      * Setzt alle Variablen auf den Startzustand.
      */
     private void initVariables() {
-        try{
+        try {
             JFrame parent = (JFrame) SwingUtilities.getWindowAncestor(this);
             parent.setTitle("Sokoban");
-        }catch (NullPointerException ex){
+        } catch (NullPointerException ex) {
         }
 
         walls = new ArrayList<>();
@@ -80,6 +81,7 @@ public class GameBoard extends JPanel implements Serializable {
 
     /**
      * Erstellt anhand des String Figuren an den entsprechenden Positionen.
+     *
      * @param level
      */
     private void parseLevel(String level) {
@@ -91,7 +93,7 @@ public class GameBoard extends JPanel implements Serializable {
         for (int i = 0; i < level.length(); i++) {
 
             // Aktuelles Zeichen auslesen und zu Objekt parsen
-            LevelField currentField = LevelField.getInstanceByValue(level.substring(i, i+1));
+            LevelField currentField = LevelField.getInstanceByValue(level.substring(i, i + 1));
 
             // Felder erstellen
             switch (currentField) {
@@ -155,7 +157,7 @@ public class GameBoard extends JPanel implements Serializable {
         }
     }
 
-    private boolean checkCollision(Player player, Direction direction) {
+    private boolean checkCollision(BaseMovableFigure player, Direction direction) {
         boolean collided = false;
 
         // Objekte holen mit dennen kolidiert werden kann
@@ -197,25 +199,29 @@ public class GameBoard extends JPanel implements Serializable {
                     int newBagX = moneyBag.getPosX();
                     int newBagY = moneyBag.getPosY();
 
-                    switch (direction) {
-                        case LEFT:
-                            newBagX -= FIELD_SIZE;
-                            break;
-                        case UP:
-                            newBagY -= FIELD_SIZE;
-                            break;
-                        case DOWN:
-                            newBagY += FIELD_SIZE;
-                            break;
-                        case RIGHT:
-                            newBagX += FIELD_SIZE;
-                            break;
-                        default:
-                            break;
+                    if (!checkCollision(moneyBag, direction)) {
+                        switch (direction) {
+                            case LEFT:
+                                newBagX -= FIELD_SIZE;
+                                break;
+                            case UP:
+                                newBagY -= FIELD_SIZE;
+                                break;
+                            case DOWN:
+                                newBagY += FIELD_SIZE;
+                                break;
+                            case RIGHT:
+                                newBagX += FIELD_SIZE;
+                                break;
+                            default:
+                                break;
+                        }
+                    } else {
+                        collided = true;
+                        break;
                     }
-
                     // Jede Wall überprüfen
-                    for (Wall wall: walls) {
+                    for (Wall wall : walls) {
 
                         // Wenn eine Wall an der neuen Stelle steht wird nicht bewegt
                         if (wall.getPosX() == newBagX && wall.getPosY() == newBagY) {
@@ -226,11 +232,19 @@ public class GameBoard extends JPanel implements Serializable {
 
                     // Wenn keine Wall im Weg steht wird MoneyBag und Spieler bewegt
                     if (!collided) {
+
+                        ArrayList<MoneyBag> tmpList = new ArrayList<>();
+                        for (MoneyBag bag : bags) {
+                            MoneyBag newBag = new MoneyBag(bag.getPosX(), bag.getPosY());
+                            tmpList.add(newBag);
+                        }
+                        undoBagsList.add(tmpList);
+
                         moneyBag.move(direction, FIELD_SIZE);
                         levelCompleted = checkIfLevelCompleted();
                     }
 
-                // Wenn es sich um eine Wand handelt
+                    // Wenn es sich um eine Wand handelt
                 } else {
                     collided = true;
                     break;
@@ -255,33 +269,32 @@ public class GameBoard extends JPanel implements Serializable {
         return bagsOnDestination == bagsSize;
     }
 
-    private boolean checkIfBagOnDestination(){
+    private boolean checkIfBagOnDestination() {
         boolean check = false;
-        for (MoneyBag bag : bags){
-            for( Destination destination : destinations){
-                if(bag.getPosX() == destination.getPosX() && bag.getPosY() == destination.getPosY()){
+        for (MoneyBag bag : bags) {
+            for (Destination destination : destinations) {
+                if (bag.getPosX() == destination.getPosX() && bag.getPosY() == destination.getPosY()) {
                     Star star = new Star(bag.getPosX(), bag.getPosY());
                     bag.setImage(star.getImage());
                     check = true;
                     break;
-                    }
-                    else check = false;
+                } else check = false;
             }
         }
         return check;
     }
 
-    private boolean checkIfPlayerOnDestination(){
+    private boolean checkIfPlayerOnDestination() {
         boolean check = false;
         int x = player.getPosX();
         int y = player.getPosY();
-        for(Destination destination : destinations){
-            if(x == destination.getPosX() && y == destination.getPosY()){
+        for (Destination destination : destinations) {
+            if (x == destination.getPosX() && y == destination.getPosY()) {
                 Plus p = new Plus(player.getPosX(), player.getPosY());
                 player.setImage(p.getImage());
                 check = true;
                 break;
-            }else check = false;
+            } else check = false;
         }
         return check;
     }
@@ -292,6 +305,58 @@ public class GameBoard extends JPanel implements Serializable {
         drawLevel(g);
     }
 
+    public void move(Direction direction) {
+        if (!levelCompleted) {
+            // Wenn eine Richtungstaste gedrückt wurde und keine Wall im Weg steht wird bewegt.
+            if (direction != null && !checkCollision(player, direction)) {
+
+                undoPlayerList.add(new Player(this.player.getPosX(), this.player.getPosY()));
+
+
+                moveCounter++;
+                player.move(direction, FIELD_SIZE);
+            }
+        }
+
+        if (!checkIfPlayerOnDestination()) {
+            //Wenn die Spielfigur nicht auf dem Ziel steht, soll das Symbol ein @ bleiben
+            Player pp = new Player(player.getPosX(), player.getPosY());
+            player.setImage(pp.getImage());
+        }
+
+        //Wenn der Geldsack nicht auf dem Ziel steht, soll das Symbol ein $ bleiben
+        if (!checkIfBagOnDestination()) {
+            for (MoneyBag bag : bags) {
+                for (Destination destination : destinations) {
+                    if (bag.getPosX() == destination.getPosX() && bag.getPosY() == destination.getPosY()) {
+                        Star star = new Star(bag.getPosX(), bag.getPosY());
+                        bag.setImage(star.getImage());
+                        break;
+                    } else {
+                        MoneyBag mb = new MoneyBag(getX(), getY());
+                        bag.setImage(mb.getImage());
+                    }
+                }
+            }
+        }
+        repaint();
+    }
+
+    public void undo() {
+        if (!undoPlayerList.isEmpty()) {
+            this.player = undoPlayerList.get(undoPlayerList.size() - 1);
+            undoPlayerList.remove(undoPlayerList.size() - 1);
+            moveCounter--;
+        }
+        if (!undoBagsList.isEmpty()) {
+            this.bags = undoBagsList.get(undoBagsList.size() - 1);
+            undoBagsList.remove(undoBagsList.size() - 1);
+        }
+
+        repaint();
+    }
+
+    //KeyboardListener zum Bewegen der Figur mit der Tastatur!
     public class SokobanKeyListener extends KeyAdapter {
 
         @Override
@@ -303,7 +368,8 @@ public class GameBoard extends JPanel implements Serializable {
             // W, S, A, D und Pfeiltasten zum Bewegen, R zum Neustarten, Z für Undo
             Direction direction = null;
             switch (keyCode) {
-                case KeyEvent.VK_Z:
+                case KeyEvent.VK_Z: //TODO UNDO Funktion!
+                    undo();
                     break;
                 case KeyEvent.VK_R:
                     restartCurrentLevel();
@@ -328,37 +394,7 @@ public class GameBoard extends JPanel implements Serializable {
                     direction = null;
                     break;
             }
-
-            if (!levelCompleted) {
-                // Wenn eine Richtungstaste gedrückt wurde und keine Wall im Weg steht wird bewegt.
-                if (direction != null && !checkCollision(player, direction)) {
-                    moveCounter++;
-                    player.move(direction, FIELD_SIZE);
-                }
-            }
-
-            if (!checkIfPlayerOnDestination()){
-                //Wenn die Spielfigur nicht auf dem Ziel steht, soll das Symbol ein @ bleiben
-                Player pp = new Player(player.getPosX(), player.getPosY());
-                player.setImage(pp.getImage());
-            }
-
-                //Wenn der Geldsack nicht auf dem Ziel steht, soll das Symbol ein $ bleiben
-            if (!checkIfBagOnDestination()){
-                for (MoneyBag bag : bags){
-                    for( Destination destination : destinations){
-                        if(bag.getPosX() == destination.getPosX() && bag.getPosY() == destination.getPosY()){
-                            Star star = new Star(bag.getPosX(), bag.getPosY());
-                            bag.setImage(star.getImage());
-                            break;
-                        }else {
-                            MoneyBag mb = new MoneyBag(getX(), getY());
-                            bag.setImage(mb.getImage());
-                        }
-                    }
-                }
-            }
-            repaint();
+            move(direction);
         }
     }
 }
