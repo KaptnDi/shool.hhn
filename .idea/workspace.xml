@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2a9f72b-dc3c-45ca-99b1-ac67fa32f18d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$1.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$10.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$11.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$11.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$12.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$12.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$13.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$13.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$14.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$14.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$15.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$15.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$16.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$16.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$2.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$3.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$4.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$5.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$6.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$7.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$8.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main$9.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main$9.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/Main.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/ui/GameBoard$SokobanKeyListener.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/ui/GameBoard$SokobanKeyListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/out/main/ui/GameBoard.class" afterPath="$PROJECT_DIR$/Sokoban/out/main/ui/GameBoard.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/src/main/Main.java" afterPath="$PROJECT_DIR$/Sokoban/src/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java" afterPath="$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -54,13 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-42">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameBoard.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="383">
-              <caret line="241" column="36" lean-forward="true" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
+              <caret line="241" column="36" lean-forward="false" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
               <folding>
-                <marker date="1497258236440" expanded="true" signature="13753:13765" ph="{...}" />
+                <marker date="1497258328822" expanded="true" signature="13753:13765" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -101,8 +90,9 @@
         <option value="$PROJECT_DIR$/Sokoban/src/main/logic/figure/Plus.java" />
         <option value="$PROJECT_DIR$/Sokoban/src/main/logic/figure/Star.java" />
         <option value="$PROJECT_DIR$/Sokoban/src/main/logic/figure/LevelField.java" />
-        <option value="$PROJECT_DIR$/Sokoban/src/main/Main.java" />
         <option value="$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java" />
+        <option value="$PROJECT_DIR$/Sokoban/src/main/Main.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -183,6 +173,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shool.hhn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shool.hhn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -195,6 +199,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="add_unversioned_files" value="true&#10;C:/Users/Dimitri/Desktop/Studium/3tes_Semester/GitSachen/shool.hhn/.gitignore" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -648,7 +653,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42703000" />
+    <option name="totallyTimeSpent" value="42844000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -683,8 +688,8 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36143932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36143932" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -705,6 +710,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39865622" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -716,6 +722,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1717604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout>
@@ -783,14 +790,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/src/main/logic/figure/Wall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -804,8 +803,8 @@
         <state relative-caret-position="136">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -823,7 +822,7 @@
         <state relative-caret-position="315">
           <caret line="62" column="34" lean-forward="false" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
           <folding>
-            <marker date="1497258236440" expanded="true" signature="13753:13765" ph="{...}" />
+            <marker date="1497258328822" expanded="true" signature="13753:13765" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -848,7 +847,7 @@
         <state relative-caret-position="663">
           <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
-            <marker date="1497258236440" expanded="true" signature="13753:13765" ph="{...}" />
+            <marker date="1497258328822" expanded="true" signature="13753:13765" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -873,7 +872,7 @@
         <state relative-caret-position="4998">
           <caret line="306" column="22" lean-forward="false" selection-start-line="306" selection-start-column="22" selection-end-line="306" selection-end-column="22" />
           <folding>
-            <marker date="1497258236440" expanded="true" signature="13753:13765" ph="{...}" />
+            <marker date="1497258328822" expanded="true" signature="13753:13765" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -891,7 +890,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1497258236440" expanded="true" signature="13753:13765" ph="{...}" />
+            <marker date="1497258328822" expanded="true" signature="13753:13765" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -916,7 +915,7 @@
         <state relative-caret-position="4318">
           <caret line="254" column="35" lean-forward="false" selection-start-line="254" selection-start-column="35" selection-end-line="254" selection-end-column="35" />
           <folding>
-            <marker date="1497258236440" expanded="true" signature="13753:13765" ph="{...}" />
+            <marker date="1497258328822" expanded="true" signature="13753:13765" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -945,8 +944,8 @@
         <state relative-caret-position="136">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1062,7 +1061,7 @@
         <state relative-caret-position="147">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <marker date="1497258236440" expanded="true" signature="13753:13765" ph="{...}" />
+            <marker date="1497258328822" expanded="true" signature="13753:13765" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1095,8 +1094,8 @@
         <state relative-caret-position="136">
           <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
           <folding>
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="false" />
+            <element signature="e#239#240#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1157,8 +1156,8 @@
         <state relative-caret-position="153">
           <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding>
-            <element signature="e#191#192#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="false" />
+            <element signature="e#257#258#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1171,6 +1170,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="241" column="36" lean-forward="false" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
+          <folding>
+            <marker date="1497258328822" expanded="true" signature="13753:13765" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Sokoban/src/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1179,13 +1188,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sokoban/src/main/ui/GameBoard.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="241" column="36" lean-forward="true" selection-start-line="241" selection-start-column="36" selection-end-line="241" selection-end-column="36" />
-          <folding>
-            <marker date="1497258236440" expanded="true" signature="13753:13765" ph="{...}" />
-          </folding>
+        <state relative-caret-position="-42">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
