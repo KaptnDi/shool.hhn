@@ -230,7 +230,15 @@ public class GameBoard extends JPanel implements Serializable {
                         }
                     }
 
-                    // Wenn keine Wall im Weg steht wird MoneyBag und Spieler bewegt
+                    // Jeden Moneybag überprüfen
+                    for (MoneyBag bag : bags) {
+                        if (bag.getPosX() == newBagX && bag.getPosY() == newBagY) {
+                            collided = true;
+                            break;
+                        }
+                    }
+
+                    // Wenn keine Wall im Weg steht wird Moneybag und Spieler bewegt
                     if (!collided) {
 
                         ArrayList<MoneyBag> tmpList = new ArrayList<>();
@@ -239,12 +247,12 @@ public class GameBoard extends JPanel implements Serializable {
                             tmpList.add(newBag);
                         }
                         undoBagsList.add(tmpList);
-
-                        moneyBag.move(direction, FIELD_SIZE);
-                        levelCompleted = checkIfLevelCompleted();
+                        //TODO Abfrag für bags collided!
+                                moneyBag.move(direction, FIELD_SIZE);
+                                levelCompleted = checkIfLevelCompleted();
                     }
 
-                    // Wenn es sich um eine Wand handelt
+                    // Wenn es sich um eine Wand handelt oder ein weiterer Moneybag
                 } else {
                     collided = true;
                     break;
@@ -368,11 +376,13 @@ public class GameBoard extends JPanel implements Serializable {
             // W, S, A, D und Pfeiltasten zum Bewegen, R zum Neustarten, Z für Undo
             Direction direction = null;
             switch (keyCode) {
-                case KeyEvent.VK_Z: //TODO UNDO Funktion!
+                case KeyEvent.VK_Z:
                     undo();
                     break;
                 case KeyEvent.VK_R:
                     restartCurrentLevel();
+                    undoPlayerList.clear();
+                    undoPlayerList.clear();
                     break;
                 case KeyEvent.VK_UP:
                 case KeyEvent.VK_W:

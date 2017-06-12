@@ -46,7 +46,6 @@ public class Main extends JFrame implements Serializable {
     }
 
     public static void main(String[] args) {
-        // TODO logik ausarbeiten dass level aus textdatei geladen wird.
         //Main erstellt automatisch das lvl 1
         String level1 = "  #####\n" +
                 "###   #\n" +
@@ -81,8 +80,8 @@ public class Main extends JFrame implements Serializable {
         left.setFocusable(false);
         right.setFocusable(false);
         down.setFocusable(false);
-        bPan.add(up);
         bPan.add(left);
+        bPan.add(up);
         bPan.add(right);
         bPan.add(down);
         super.add(bPan);
